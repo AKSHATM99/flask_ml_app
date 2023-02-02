@@ -1,0 +1,196 @@
+/* Image Classification Model Page css------------------------------------ */
+#head_text{
+  text-align: center;
+  color: rgb(245, 97, 97);
+  padding: 30px;
+
+}
+
+#imgdiv{
+  width: 30%;
+  height: 350px;
+  margin: auto;
+  border-style: solid;
+}
+#text{
+  margin-top: 35%;
+  margin-left: 17%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+
+
+#upload{
+margin-left: 35%;
+margin-top: 3%;
+
+}
+
+.button-5 {
+
+align-items: center;
+background-clip: padding-box;
+background-color: #fa6400;
+border: 1px solid transparent;
+border-radius: .25rem;
+box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+display: inline-flex;
+font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+font-weight: 600;
+justify-content: center;
+line-height: 1.25;
+/* margin: 0; */
+min-height: 3rem;
+padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+position: relative;
+text-decoration: none;
+transition: all 250ms;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: baseline;
+width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+background-color: #fb8332;
+box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+transform: translateY(-1px);
+}
+
+.button-5:active {
+background-color: #c85000;
+box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+transform: translateY(0);
+}
+#run_model{
+margin-left: 45%;
+margin-top: 2%;
+}
+
+#output{
+font-size: 30px;
+margin-top: 25px;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#output_reg{
+  font-size: 30px;
+  margin-top: 95px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+#imgdiv img {
+    width: 100%;
+    display: none;
+    height: 100%;
+}
+
+#return_home{
+  position: absolute;
+  margin-left: 65px;
+  margin-top: 30px;
+}
+
+
+
+#return_about{
+  position: absolute;
+  margin-left: 175px;
+  margin-top: 30px;
+}
+
+
+/* HomePage Css ---------------------------------------------- */
+#return_about_home{
+  position: absolute;
+  margin-left: 75px;
+  margin-top: 30px;
+}
+
+#home_text{
+  position: absolute;
+  /* background-color: black; */
+  color: rgb(225, 28, 28);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 27%;
+  padding: 10px;
+}
+
+#linear_reg {
+  position: absolute;
+  background-color: #c85000;
+  width: 30%;
+  height: 350px;
+  margin-left: 15%;
+  border-style: solid;
+
+  margin-top: 12%;
+
+}
+
+#image_class {
+  position: absolute;
+  background-color: aqua;
+  width: 30%;
+  height: 350px;
+  margin: auto;
+  border-style: solid;
+  margin-left: 55%;
+  margin-top: 12%;
+
+}
+#linear_reg img {
+  width: 100%;
+  /* display: none; */
+  height: 100%;
+  
+}
+#image_class img {
+  width: 100%;
+  /* display: none; */
+  height: 100%;
+}
+/* Login button css */
+
+#return_login{
+  position: absolute;
+  margin-left: 90%;
+  margin-top: 30px;
+}
+#return_signup{
+  position: absolute;
+  margin-left: 82%;
+  margin-top: 30px;
+}
+
+/* _________________________________________________________ */
+/* Linear Model Css */
+
+.li_form{
+  height: 100px;
+  width: 100px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  margin-left: 45%;
+  margin-top: 10%;
+}
+.input_form{
+  position: relative;
+  height: 60px;
+  width: 60px;
+}
+
+
+
+

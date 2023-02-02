@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classification Model</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="static/script.js"></script>
+</head>
+<body style="background-color:powderblue;">
+    <a href="{{ url_for('home') }} " class="button-5" id="return_home">Home</a>
+    <a href="{{ url_for('home') }}" class="button-5" id="return_about">About</a>
+    <h1 id="head_text"><u>Machine Learning Model Deployment By Using Flask </u></h1>
+    <div id="imgdiv"><img id="preview-selected-image" /></div>
+    <div>
+        <form enctype="multipart/form-data" action="{{ url_for('upload') }}" method="POST" id="form">
+        <input type="file" class="button-5" id="upload" name="myfile" accept="image/*" onchange="previewImage(event);" />
+        <input type="submit" class="button-5" name="submit_file" value="Run Model">
+    </form>
+    </div>
+    <div id="output" font-color="red">
+        {{ lable }}
+    </div>
+</body>
+</html> 

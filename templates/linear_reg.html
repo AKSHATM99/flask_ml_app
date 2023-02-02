@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Regression Model</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="static/script.js"></script>
+</head>
+<body style="background-color:powderblue;">
+    <a href="{{ url_for('home') }} " class="button-5" id="return_home">Home</a>
+    <a href="{{ url_for('home') }}" class="button-5" id="return_about">About</a>
+    <h1 id="head_text"><u>Linear Regression Model Deployment By Using Flask </u></h1>
+    <div class="li_form">
+        <form enctype="multipart/form-data" action="{{ url_for('predict') }}" method="POST" id="form">
+        <div class="input_form">
+            <input type="text" name="km_driven" id="km_driven" value="Km Driven" onfocus=this.value='' required />
+        </div>
+        <div class="input_form">
+            <input type="text" name="age" id="age" value="Age of Vehicle" onfocus=this.value='' required />
+        </div>
+        <input type="submit" value="Calculate Price" class="button-5" id="submit_btn-reg"  />
+    </form>
+    </div>
+    <div id="output_reg" font-color="red">
+        {{ output }}
+    </div>
+</body>
+</html> 

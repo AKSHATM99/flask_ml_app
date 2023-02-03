@@ -82,12 +82,7 @@ margin-top: 25px;
 text-align: center;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#output_reg{
-  font-size: 30px;
-  margin-top: 95px;
-  text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+
 
 #imgdiv img {
     width: 100%;
@@ -177,19 +172,32 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 /* Linear Model Css */
 
 .li_form{
-  height: 100px;
-  width: 100px;
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
-  margin-left: 45%;
-  margin-top: 10%;
-}
-.input_form{
-  position: relative;
-  height: 60px;
-  width: 60px;
-}
+  /*   border: solid; */
+    height: 200px;
+    width: 400px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 8%;
+  }
+  .input_form input{
+    position: relative;
+    height:50px ;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #submit_btn-reg{
+    margin-left: 30%
+  }
+
+  #output_reg{
+    font-size: 30px;
+    margin-right: 60px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
 
 
 

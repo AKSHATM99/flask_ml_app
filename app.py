@@ -4,6 +4,8 @@ import numpy as np
 import pickle
 from tensorflow import keras
 from tensorflow.keras.preprocessing import image
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 
 UPLOAD_FOLDER = 'static/files/'

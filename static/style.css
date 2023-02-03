@@ -1,8 +1,11 @@
 /* Image Classification Model Page css------------------------------------ */
 #head_text{
   text-align: center;
-  color: rgb(245, 97, 97);
-  padding: 30px;
+  font-family: "neo-sans","Inter var","system-ui","Helvetica Neue",Helvetica,Arial,sans-serif;
+color: #181b38;
+font-weight: 700;
+font-size: 37px;
+margin-top: 3%;
 
 }
 
@@ -30,7 +33,7 @@ margin-top: 3%;
 
 align-items: center;
 background-clip: padding-box;
-background-color: #fa6400;
+background-color: #4351e8;
 border: 1px solid transparent;
 border-radius: .25rem;
 box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
@@ -115,9 +118,10 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 #home_text{
   position: absolute;
   /* background-color: black; */
-  color: rgb(225, 28, 28);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-left: 27%;
+  font-family: "neo-sans","Inter var","system-ui","Helvetica Neue",Helvetica,Arial,sans-serif;
+color: #181b38;
+font-weight: 700;
+  margin-left: 22%;
   padding: 10px;
 }
 
@@ -128,7 +132,6 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
   height: 350px;
   margin-left: 15%;
   border-style: solid;
-
   margin-top: 12%;
 
 }

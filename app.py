@@ -14,9 +14,9 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 #Loading & Compiling Model 
-model = keras.models.load_model('BikeVsCar_Model.h5') # 90.50% Accurate
+model = keras.models.load_model('BikeVsCar_Model(91.5).h5') # 90.50% Accurate
 model.compile(loss='binary_crossentropy',
-             optimizer = 'adam',
+             optimizer = 'RMSprop',
              metrics=['accuracy']
              )
 
